@@ -132,6 +132,7 @@ button {
 }
 
 .partner__description {
+  font-weight: 300;
   font-size: 14px;
   color: var(--color-text);
   line-height: 1.5;

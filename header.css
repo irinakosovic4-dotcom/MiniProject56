@@ -76,6 +76,7 @@ button {
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-left: auto;
 }
 
 .header__link {
@@ -90,6 +91,9 @@ button {
 }
 
 .header__link-signup {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 14px;
   border: 2px solid var(--color-text-secondary);
   border-radius: 20px;
   padding: 6px 18px;
@@ -103,10 +107,6 @@ button {
 }
 
 @media (max-width: 480px) {
-  .header__link-login {
-    display: none;
-  }
-
   .logo {
     font-size: 12px;
   }

@@ -91,14 +91,12 @@ button {
 }
 
 .header__link-signup {
-  font-family: 'Montserrat';
-  font-weight: 700;
-  font-size: 14px;
   border: 2px solid var(--color-text-secondary);
   border-radius: 20px;
   padding: 6px 18px;
 }
 
+/* Tablet */
 @media (max-width: 768px) {
   .header__container {
     padding-top: 16px;
@@ -106,8 +104,17 @@ button {
   }
 }
 
+/* Mobile */
 @media (max-width: 480px) {
-  .logo {
-    font-size: 12px;
+  .header__logo {
+    display: none;
+  }
+
+  .header__container {
+    justify-content: flex-end;
+  }
+
+  .header__links {
+    margin-left: 0;
   }
 }

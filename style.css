@@ -76,7 +76,6 @@ button {
   gap: 10px;
 }
 
-/* Photo wrapper with colored badge */
 .partners__photo-wrapper {
   position: relative;
   width: 120px;
@@ -109,7 +108,6 @@ button {
   object-fit: cover;
 }
 
-/* Per-partner badge colors */
 .partners__item:nth-child(1) .partner__icon-wrapper {
   background-color: var(--color-partner-1);
 }
@@ -140,7 +138,6 @@ button {
   max-width: 180px;
 }
 
-/* "See other partners" button */
 .partners__btn {
   margin-top: 36px;
   background: transparent;
@@ -159,7 +156,6 @@ button {
   color: var(--color-text-secondary);
 }
 
-/* Tablet — 2×2 grid */
 @media (max-width: 768px) {
   .partners {
     padding: 48px 0 40px;
@@ -175,7 +171,6 @@ button {
   }
 }
 
-/* Mobile — 1 column */
 @media (max-width: 480px) {
   .partners {
     padding: 36px 0 32px;
